@@ -12,7 +12,7 @@ export default function RoomScreen() {
 			<Stack.Screen options={{ title: "Room" }} />
 			<View className="flex-1 p-4">
 				<Text>Room ID: {id}</Text>
-				<Text>hi this where the mapG1JRF1SIR3</Text>
+				<Text>hi this where the map</Text>
 			</View>
 		</SafeAreaView>
 	);
