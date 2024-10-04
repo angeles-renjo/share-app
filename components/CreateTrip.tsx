@@ -71,6 +71,7 @@ export default function CreateTrip() {
 						start_date: data.startDate.toISOString(),
 						end_date: data.endDate.toISOString(),
 						user_id: user.id,
+						owner_id: user.id, // Add this line to include owner_id
 					},
 				])
 				.single();
